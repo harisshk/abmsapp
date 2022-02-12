@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+html{
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+}
+
+/* Navbar */
+nav{
+	box-shadow: 0px 0px 10px white;
+}
+nav .navbar-brand{
+	color: #0e90e4 !important;
+	font-size: 25px;
+	font-weight: bolder;
+	letter-spacing: 1px;
+}
+nav .navbar-brand:hover{
+	transform: rotateX(360deg);
+	transition: 1s;
+	transition-delay: 0.5s;
+}
+nav .nav-link{
+	color: #24abee !important;
+	font-weight: bold;
+	font-size:large;
+}
+nav .Login{
+	background-color: #0e90e4;
+	padding: 5px 20px;
+	color: white !important;
+	border-radius: 15px;
+}
+
+
+/* Home */
+#Home .HomeBg{
+	background:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.6)), url(assets/Home/Home\ Image.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+#Home h1{
+ color: transparent;
+ font-size: 70px;
+ font-weight: bold;
+ position: relative;
+ letter-spacing: 5px;
+ -webkit-text-stroke: 0.2vw white;
+ text-transform: capitalize;
+ margin-bottom: 30px;
+ display: flex;
+ justify-content: space-around;
+}
+#Home a{
+	background-color: #0e90e4;
+	padding: 10px 20px;
+	width: 200px;
+	color: white;
+}
+#Home a:hover{
+	background-color: #DCDCDC;
+	padding: 10px 20px;
+	width: 200px;
+	color: #0e90e4;
+}
+.HomeCard{
+	background-color: #0e90e4;
+	color: white;
+	display: flex;
+	justify-content: center;
+	border-bottom: 30px;
+}
+.HomeCard img{
+	margin-bottom: 20px;
+	margin-top: 50px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.HomeCard h5{
+	margin-bottom: 20px;
+	letter-spacing: 1px;
+}
+
+/* About */
+#About .container{
+	margin-top: 100px;
+	background-color: #f2f2f2;
+	border-radius: 30px;
+}
+#About h1{
+	text-align: center;
+	color: #0e90e4;
+	font-weight: bolder;
+	padding-top: 30px;
+}
+#About .Row1{
+	margin: 50px 0px;
+	padding: 10px;
+	background-color: #24abee;
+	border-radius: 10px;
+}
+#About .Row1 .card{
+	border: 2px solid white;
+	box-shadow: 3px 3px 10px black;
+	margin: 20px 0px; 
+}
+#About .Row2{
+	text-align: center;
+}
+#About .Row2 h4{
+	color: #0e90e4;
+	margin-bottom: 30px;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+#About .Row2 p{
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	color: #666;
+	font-weight: 400;
+}
+#About .Row3{
+margin-top: 20px;
+}
+#About .Row3 h4{
+	color: #0e90e4;
+	text-align: center;
+	font-weight: 600;
+	letter-spacing: 1px;
+	padding-bottom: 20px;
+}
+#About .Row3 ul li{
+	list-style-type: none;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	color: #666;
+	font-weight: 400;
+	text-align: center;
+	padding-bottom: 20px;
+}
+#About .container-fluid video{
+	display: flex;
+	align-items: center;
+	justify-items: center;
+}
+#About .VideoBanner{
+	margin-top: 50px;
+	background-color: #e7e9eb;
+}
+#About .VideoBanner video{
+	margin-top: 10%;
+	margin-bottom: 10%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+#About .card:hover{
+	transform: scale(1.1);
+	border-color: #0000CD ;
+}
+
+/* Blog */
+#Blog .container-fluid{
+	background-color: #0e90e4;
+	min-height: 70vh;
+}
+#Blog .blog{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-top: 100px;
+	padding-bottom: 50px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+#Blog .BlogText{
+	background-color: #24abee;
+	border-radius:20px;
+	color: white;
+}
+#Blog .BlogText h5{
+	font-weight: 600;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	color: whitesmoke;
+	margin-top: 30px;
+	color: white;
+}
+#Blog .BlogText ul{
+	margin-top: 70px;
+}
+#Blog .BlogText ul li{
+	font-weight: 400;
+	letter-spacing: 1px;
+	margin: 10px 0px;
+	list-style-type: none;
+	color: white;
+}
+#Blog .container-fluid img{
+	border-radius: 20px;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+#Blog .ReviewCard{
+	margin-top: 50px;
+}
+#Blog .ReviewCard .card{
+	margin-top: 50px;
+	border: none;
+	box-shadow: 5px 5px 10px black;
+}
+#Blog .ReviewCard h1{
+	font-weight: bold;
+	color: #0e90e4;
+	letter-spacing: 1px;
+}
+#Blog .ReviewCard .card-title{
+	color: black;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+#Blog .ReviewCard button{
+	background-color: #0e90e4;
+	margin-top: 20px;
+}
+#Blog .ReviewCard button a{
+	color: white;
+	text-decoration: none;
+}
+
+
+
+
+/* Contact */
+#Contact .ContactImg{
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)),url(assets/Contact/Contact\ img.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 50vh;
+	border-radius: 40px;
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+#Contact .container-fluid h1{
+	color: white;
+	font-size: 60px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-shadow: 5px 5px 10px black;
+	border: 1px solid white;
+	border-radius: 50px;
+}
+#Contact .container-fluid{
+	background-color: #e6e6e6;
+	margin-top: 5%;
+}
+#Contact .container-fluid h2{
+	font-size: 40px;
+	font-weight: bolder;
+	letter-spacing: 1px;
+	word-spacing: 3px;
+	color: black;
+	margin-top: 50px;
+}
+#Contact .container-fluid form label{
+	font-size:medium;
+	font-weight: bold;
+	letter-spacing: 2px;
+	word-spacing: 3px;
+}
+#Contact .container-fluid form button{
+	background-color: #0e90e4;
+	color: white;
+	font-weight: bold;
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+	border-radius: 20px;
+}
+#Contact .container-fluid form sup{
+	color: red;
+}
+#Contact .otherContact{
+	margin-top: 50px;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+#Contact .otherContact p{
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+#Contact .otherContact ul li{
+	display: inline-block;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+#Contact .otherContact ul li a{
+	padding: 10px 10px;
+	font-size: larger;
+	color: #0e90e4;
+}
+
+/*footer */
+footer{
+	background-color: #0e90e4;
+	margin-bottom: 0px;
+}
+footer p{
+	padding: 10px 0px;
+	color: black;
+	font-weight: bold;
+}
+footer img{
+	margin-top: 10px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+@media screen and (max-width:576px){
+	#Home h1{
+		font-size: 30px;
+	}
+	#Contact .container-fluid h1{
+		font-size: 30px;
+	}
+	#Contact .container-fluid h2{
+		font-size: 25px;
+	}
+	#Contact .ContactImg{
+		min-height:30vh;
+	}
+	#Contact .container-fluid form label{
+		font-size: small;
+	}
+	
+}
+
